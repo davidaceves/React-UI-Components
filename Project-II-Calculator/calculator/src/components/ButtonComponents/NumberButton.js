@@ -1,18 +1,22 @@
 import React from 'react';
 import './Button.css';
 
-const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
-
-const numbersMap = numbers.map((number) =>
-    <button class="Single-Button">{number}</button>
-);
-
-function NumberButton (props) {
+const ButtonCreator = props => {
     return (
-        <div class="Numbers-Buttons">
-        {
-         numbersMap
-        }
+        <button className={'btn-styles ${props.symbolStyles}'}>{props.text}</button>
+    )
+}
+
+function NumberButton () {
+    return (
+        <div className="numbersButtons">
+        
+         <ButtonCreator text="÷" symbolStyles="symbols"/>
+         <ButtonCreator text="x" symbolStyles="symbols"/>
+         <ButtonCreator text="-" symbolStyles="symbols"/>
+         <ButtonCreator text="+" symbolStyles="symbols"/>
+         <ButtonCreator text="=" symbolStyles="symbols"/>
+
         </div>
     )
 }
