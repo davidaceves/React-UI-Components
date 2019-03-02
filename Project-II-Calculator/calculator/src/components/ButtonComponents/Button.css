@@ -1,0 +1,19 @@
+.Action-Buttons {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 75px;
+}
+
+.Single-Button {
+    font-size: 30px;
+    color: black;
+    background: white;
+}
+
+.Numbers-Buttons {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 75px 75px 75px 75px;
+    justify-content: end;
+}
