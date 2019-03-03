@@ -11,7 +11,7 @@ function NumberButton () {
     return (
         <div className="numbersButtons">
 
-            <div className="symbols">
+            <div className="symbolBtns">
                 <ButtonCreator text="÷" buttonStyles="symbols"/>
                 <ButtonCreator text="x" buttonStyles="symbols"/>
                 <ButtonCreator text="-" buttonStyles="symbols"/>
