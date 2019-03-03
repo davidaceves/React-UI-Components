@@ -5,7 +5,7 @@ function ActionButton () {
     return (
         <div className="actionButton">
             <p className='display'>0</p>
-            <p className='clear'>clear</p>
+            <button className='clear'>clear</button>
         </div>
     )
 }

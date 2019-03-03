@@ -6,7 +6,7 @@ import NumberButton from '../ButtonComponents/NumberButton';
 
 function CalculatorDisplay () {
     return (
-        <div>
+        <div className="calcDisplay">
             <ActionButton />
             <NumberButton />
         </div>    
